@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
     <include
         layout="@layout/basic_layout"
-        android:layout_margin="5dp"
+        android:layout_margin="@dimen/default_margin"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </FrameLayout>
