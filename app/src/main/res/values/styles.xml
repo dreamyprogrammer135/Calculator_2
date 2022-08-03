@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_view_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
+    </style>
+
+    <style name="button_basic_style">
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:textSize">@dimen/button_text</item>
+    </style>
+
+    <style name="button_num_style" parent="button_basic_style">
+        <item name="android:backgroundTint">@color/button_basic</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="button_operation_style" parent="button_num_style">
+        <item name="android:backgroundTint">@color/button_operation</item>
+    </style>
+</resources>
